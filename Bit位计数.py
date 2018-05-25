@@ -20,12 +20,16 @@ import os
 import sys
 
 def main():
-    num = 9
+    num = 5
     #return [0,1,1,2,1,2]
 
     bit = [0]
     for i in range(1,num + 1):
+        print(i)
+        print(i & (i - 1))
+        print(bit[i & (i - 1)] + 1)
         bit.append(bit[i & (i - 1)] + 1)
+        print(bit)
     print(bit)
     return bit
 
