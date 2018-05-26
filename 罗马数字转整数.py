@@ -53,22 +53,84 @@ def main():
     #s = "III"
     #s = "IV"
     #s = "LVIII"
-    s = "MCMXCIV"
+    #s = "MCMXCIV"
+    s = "CLXXXIII"
 
     dict = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+    
     num = 0
-
+    i = 0
     s = list(s)
+    
+    while(i < len(s)):
+        if((i+1) < len(s)):
+            if(s[i] == 'I' and s[i+1] == 'V'):
+                num += 4
+                print(num,i)
+                i += 2
+                continue
+            if(s[i] == 'I' and s[i+1] == 'X'):
+                num += 9
+                print(num,i)
+                i += 2
+                continue
+            if(s[i] == 'X' and s[i+1] == 'L'):
+                num += 40
+                print(num,i)
+                i += 2
+                continue
+            if(s[i] == 'X' and s[i+1] == 'C'):
+                num += 90
+                print(num,i)
+                i += 2
+                continue
+            if(s[i] == 'C' and s[i+1] == 'D'):
+                num += 400
+                print(num,i)
+                i += 2
+                continue
+            if(s[i] == 'C' and s[i+1] == 'M'):
+                num += 900
+                print(num,i)
+                i += 2
+                continue
 
-    for i in range(0,len(s)):
-        if((i+1) >= len(s) and dict.get(s[i+1]) <= dict.get(s[i])):
-            num += dict.get(s[i])
-        else:
-            num -= dict.get(s[i])
-        print(num)
-
+        if(s[i] == 'I'):
+            num += 1
+            print(num,i)
+            i += 1
+            continue
+        if(s[i] == 'V'):
+            num += 5
+            print(num,i)
+            i += 1
+            continue
+        if(s[i] == 'X'):
+            num += 10
+            print(num,i)
+            i += 1
+            continue
+        if(s[i] == 'L'):
+            num += 50
+            print(num,i)
+            i += 1
+            continue
+        if(s[i] == 'C'):
+            num += 100
+            print(num,i)
+            i += 1
+            continue
+        if(s[i] == 'D'):
+            num += 500
+            print(num,i)
+            i += 1
+            continue
+        if(s[i] == 'M'):
+            num += 1000
+            print(num,i)
+            i += 1
+            continue
     print(num)
-            
 
 if __name__ == '__main__':
     main()

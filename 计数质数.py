@@ -16,19 +16,18 @@ def zhishu(n):
     if(n <= 1):
         #print("0")
         return 0
-    else:
-        for i in range(1, n):
-            #print("num: ", i)
-            if(i > 1):
-                for j in range(2, i):
-                    #print("i: ", i, "j: ", j)
-                    if(i != j and i % j == 0):
-                        break
-                    else:
-                        #print(i,"是质数")
-                        arr.append(i) 
-            if(i == 2):
-                arr.append(i)
+    for i in range(1, n):
+        #print("num: ", i)
+        if(i > 1):
+            for j in range(2, i):
+                #print("i: ", i, "j: ", j)
+                if(i != j and i % j == 0):
+                    break
+                else:
+                    #print(i,"是质数")
+                    arr.append(i) 
+        if(i == 2):
+            arr.append(i)
 
         arr = list(set(arr))
         #print(len(arr))

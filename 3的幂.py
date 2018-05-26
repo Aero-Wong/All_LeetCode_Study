@@ -12,11 +12,35 @@ import os
 import sys
 
 def main():
-    n = 1
+    n = 0
 
+    tmp = 0
+
+    if(n <= 0):
+        print("false")
+        return False
+
+    if(n == 1):
+        print("true")
+        return True
+
+    while(n % 3 == 0):
+        tmp += 1
+        n /= 3
+
+    if(n == 1):
+        print("true")
+        return True
+    else:
+        print("false")
+        return False
+
+    print("false")
+    return False
+
+"""
     tmp1 = 0
     tmp2 = 0
-
     for i in range(120):
         num = 1
         for j in range(i):
@@ -24,7 +48,7 @@ def main():
         tmp1 += 1
         print(num)
         print(tmp1, tmp2)
-
+"""
 
 """    if(n < 1):
         print("false")
