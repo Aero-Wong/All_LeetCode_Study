@@ -17,11 +17,33 @@ def main():
     #n = 10 # 2
     #n = 100 # 21
     #n = 1000 # 301
-    #n = 10000 # 4001
-    n = 100000 # 50001
+    n = 10000 # 4001
+    #n = 100000 # 50001
     #n = 1000000 # 估 600001
     #n = 10000000 # 估 7000001
 
+    tmp = 0
+
+    for i in range(0,n+1):
+        tmp += str(i).count("1")
+
+    print(tmp)
+    return tmp
+
+"""
+    tmp = 0
+    arr = []
+    
+    for i in range(n + 1):
+        arr = list(map(int, str(i)))
+        arr.sort()
+        tmp += arr.count(1)
+        arr = []
+    
+    print(tmp)
+    return tmp
+"""
+"""    
     arr = []
     j = 0
     tmp = 0
@@ -43,6 +65,7 @@ def main():
 
     print(arr)
     print(tmp)
+"""
 
 if __name__ == '__main__':
     main()
