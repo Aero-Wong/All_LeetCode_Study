@@ -30,10 +30,20 @@ def main():
     A = [[1,1,0],[1,0,1],[0,0,0]]
     #A = [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
 
-    tmp = 0
-    for i in range(len(A)):
-        for j in range(len(A[i])):
-             = A[[j]] 
+"""
+    return [list(map(lambda x , y : x ^ y, row[::-1] , len(row)*[1]))  for row in A] 
+    """
 
+    arr = []
+    
+    for i in range(len(A)):
+        arr.append(A[i][::-1])
+        for j in range(len(arr[i])):
+            arr[i][j] = 1 - arr[i][j]
+
+    print(arr)
+    return arr
+
+ 
 if __name__ == '__main__':
     main()

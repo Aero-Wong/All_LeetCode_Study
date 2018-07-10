@@ -52,11 +52,36 @@ import sys
 def main():
     #s = "III"
     #s = "IV"
+    #s = "IX"
     #s = "LVIII"
-    #s = "MCMXCIV"
-    s = "CLXXXIII"
+    s = "MCMXCIV"
+    #s = "CLXXXIII"
 
-    dict = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+    Roman1 = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+    Roman2 = {'IV':4,'IX':9,'XL':40,'XC':90,'CD':400,'CM':900}
+    #解决办法：如果小数在大数左边，小数为负数
+    #IV = -1 + 5 = 4
+    #IX = -1 + 10 = 9
+    # 以此类推
+
+    sum = 0
+    nums =  s
+ 
+    for i in range(len(nums)-1):
+        if(Roman1[nums[i]] < Roman1[nums[i+1]]):
+            sum -= Roman1[nums[i]]
+        else:
+            sum += Roman1[nums[i]]
+        print(nums[i],Roman1[nums[i]])
+
+    sum += Roman1[nums[-1]]
+
+    print(sum)
+    return sum
+
+    #以往算法：
+"""
+    dicts = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
     
     num = 0
     i = 0
@@ -131,6 +156,6 @@ def main():
             i += 1
             continue
     print(num)
-
+"""
 if __name__ == '__main__':
     main()

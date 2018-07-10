@@ -13,11 +13,28 @@ import sys
 
 def main():
     a = 1
-    b = -1
+    #b = -1
+    b = 2
 
-    tmp = 0
-    arr = []
+    sums = sum([a,b])
+
+    print(sums)
+    return sums
     
+"""
+    tmp1 = 0
+    tmp2 = 0
+    sums = 0
+
+    tmp1 = a ^ b
+    tmp2 = (a&b) << 1
+    sums = sum([tmp1,tmp2])
+ 
+    print(sums)
+    return sums
+"""
+ 
+"""
     for i in range(a):
         arr.append(1)
     for j in range(b):
@@ -33,7 +50,7 @@ def main():
 
     print(tmp)
     return tmp
-
+"""
     
 if __name__ == '__main__':
     main()
