@@ -28,4 +28,8 @@ insert into Weather (Id, RecordDate, Temperature) values ('4', '2015-01-04', '30
 
 /*Write your MySQL query statement below*/
 
-select 
+select a.id as Id
+from weather a left join
+weather w
+on datediff(a.recorddate,w.recorddate) = 1
+where a.temperature > w.temperature
