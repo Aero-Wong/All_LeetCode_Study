@@ -17,4 +17,13 @@ Your script should output the following valid phone numbers:
 
 # Read from the file file.txt and output all valid phone numbers to stdout.
 
-awk 
+sed -nr '/^(\([0-9]{3}\) ){1}[0-9]{3}-[0-9]{4}$|^([0-9]{3}-){2}[0-9]{4}$/p' file.txt
+
+cat file.txt | grep -Eo '^(\([0-9]{3}\) ){1}[0-9]{3}-[0-9]{4}$|^([0-9]{3}-){2}[0-9]{4}$'
+
+
+# Read from the file file.txt and output all valid phone numbers to stdout.
+#其中：
+#^(\([0-9]{3}\) ){1}[0-9]{3}-[0-9]{4}$ 匹配形如(123) 456-7890的电话号码
+#^([0-9]{3}-){2}[0-9]{4}$ 匹配形如987-123-4567的电话号码
+grep -Eo '^(\([0-9]{3}\) ){1}[0-9]{3}-[0-9]{4}$|^([0-9]{3}-){2}[0-9]{4}$' file.txt
