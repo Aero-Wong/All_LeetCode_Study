@@ -27,12 +27,11 @@ def main():
 
     for i in range(left,right+1):
         j = i
-
         if(j % 10 == 0):
             continue
-        while(j):
-            if(j % 10 == 0 and j % 10 %i):
-                break
+        while(j != 0):
+            if(j % 10 == 0 and i % (j % 10) != 0):
+                return False
             j /= 10
         if(j == 0):
             arr.append(j)
