@@ -35,7 +35,7 @@
 <tr>
 <td align="center">175</td>
 <td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
+<td align="center"><a href="./数据库/组合两个表.sql">SQL</a></td>
 <td align="center">简单</td>
 </tr>
 
@@ -43,7 +43,7 @@
 <td align="center">176</td>
 <td align="center"><a href="https://leetcode-cn.com/problems/second-highest-salary">第二高的薪水</a></td>
 <td align="center"><a href="./数据库/	
-第二高的薪水.sql">Python</a></td>
+第二高的薪水.sql">SQL</a></td>
 <td align="center">简单</td>
 </tr>
 
@@ -51,114 +51,31 @@
 <td align="center">177</td>
 <td align="center"><a href="https://leetcode-cn.com/problems/nth-highest-salary">第N高的薪水</a></td>
 <td align="center"><a href="./数据库/	
-第N高的薪水.sql">Python</a></td>
+第N高的薪水.sql">SQL</a></td>
 <td align="center">中等</td>
 </tr>
 
 <tr>
 <td align="center">178</td>
 <td align="center"><a href="https://leetcode-cn.com/problems/rank-scores">分数排名</a></td>
-<td align="center"><a href="./数据库/分数排名.sql">Python</a></td>
+<td align="center"><a href="./数据库/分数排名.sql">SQL</a></td>
 <td align="center">中等</td>
 </tr>
 
 <tr>
 <td align="center">180</td>
 <td align="center"><a href="https://leetcode-cn.com/problems/consecutive-numbers">连续出现的数字 </a></td>
-<td align="center"><a href="./数据库/连续出现的数字 .sql">Python</a></td>
+<td align="center"><a href="./数据库/连续出现的数字 .sql">SQL</a></td>
 <td align="center">中等</td>
 </tr>
 
 <tr>
 <td align="center">175</td>
 <td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
+<td align="center"><a href="./数据库/组合两个表.sql">SQL</a></td>
 <td align="center">简单</td>
 </tr>
 
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
-
-<tr>
-<td align="center">175</td>
-<td align="center"><a href="https://leetcode-cn.com/problems/combine-two-tables">组合两个表</a></td>
-<td align="center"><a href="./数据库/组合两个表.sql">Python</a></td>
-<td align="center">简单</td>
-</tr>
 </table>
 
 
